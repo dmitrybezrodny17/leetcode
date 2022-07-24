@@ -1,0 +1,18 @@
+<html>
+<style>
+	pre {background:#f7f9fa;padding:1rem;margin-left:1rem}	
+	code {background-color:#f7f9fa}
+	.rl {background:#fafafa;margin-right:1rem;padding:0.3rem}
+</style>
+<body>
+	<div style="margin-bottom:1rem;font-weight:bold"><% problem_id %>. <% problem_name %></div>
+	<div style="display:inline-flex;width:100%;padding-bottom:2rem;border-bottom:1px solid rgb(238, 238, 238)">
+		<div id="difficulty" style="margin-right:1rem;color:<% problem_color %>"><% problem_difficulty %></div>
+		<div style="margin-right:1rem">👍 <% problem_likes %></div>
+		<div style="margin-right:1rem">👎 <% problem_dislikes %></div>
+	</div>
+	<div><% problem_content %></div>
+</body>
+	<div style="margin-bottom:1rem;margin-top:2rem">Related Topics</div>
+	<div style="display:inline-flex"><% problem_related %></div>
+</html>

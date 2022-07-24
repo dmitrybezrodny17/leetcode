@@ -1,0 +1,22 @@
+{
+	"codeSnippets": [
+		{
+			"__typename": "CodeSnippetNode",
+			"code": "class Solution {\npublic:\n    double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {\n        \n    }\n};",
+			"lang": "C++",
+			"langSlug": "cpp"
+		},
+		{
+			"__typename": "CodeSnippetNode",
+			"code": "class Sol1ution {\n    public double findMedianSortedArrays(int[] nums1, int[] nums2) {\n        \n    }\n}",
+			"lang": "Java",
+			"langSlug": "java"
+		},
+		{
+			"__typename": "CodeSnippetNode",
+			"code": "class Solution(object):\n    def findMedianSortedArrays(self, nums1, nums2):\n        \"\"\"\n        :type nums1: List[int]\n        :type nums2: List[int]\n        :rtype: float\n        \"\"\"\n        ",
+			"lang": "Python",
+			"langSlug": "python"
+		}
+		]
+}
